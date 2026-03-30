@@ -1,0 +1,57 @@
+# 🔒 Environment variables
+.env
+.env.*
+!.env.example
+
+# 📦 Node modules
+node_modules/
+
+# 🔨 Build folders
+build/
+dist/
+
+# 📁 Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 🧪 Testing
+coverage/
+
+# ⚙️ Dependency directories
+.pnp/
+.pnp.js
+
+# 🧾 Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# 🗂️ OS files
+.DS_Store
+Thumbs.db
+
+# 🧑‍💻 Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 🔐 Optional config
+config/*.env
+
+# 🚀 React specific
+frontend/build/
+
+# 🔄 Cache
+.cache/
+.next/
+
+# 🐳 Docker
+docker-compose.override.yml
+
+# 🔑 Misc
+*.local
